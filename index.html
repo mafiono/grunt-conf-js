@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta charset="utf-8">
-    <!--metas-->
-    <!--header-scripts-->
+    <meta name="ahrefs-site-verification" content="cb555e0f05de657484ea9bbd93144b2f0164a5ffc5e2217ece10a3587f6c2db1">
+<meta name="google-site-verification" content="Asg-2YiFaUKr_F2JpkHzGX-5ywN1CyvN4Megi2WZy7A" />
+    
     <!-- build:template
     <title ng-bind="siteTitle"><%=title%></title>
     <meta name="description" content="<%=description%>">
@@ -19,10 +20,10 @@
     <link rel="stylesheet" href="<%=resourcePathPrefix%>skins/<%=skin%>/css/skin.min.css?<%=buildDate%>"/>
         <!--[if lt IE 10]>
         <script src="//cdn.rawgit.com/jpillora/xdomain/0.7.3/dist/xdomain.min.js"></script>
-        <script>xdomain.slaves({});</script>
+        <script>xdomain.slaves({"https://swarm5.betconstruct.com" : "/xdomain-proxy.html", "http://casino.vbet.com" : "/global/partners/xdomain/xDomainProxy.html"});</script>
         <![endif]-->
     <!-- /build -->
-    <script id="bodyscript"></script>
+    
     <link ng-if="conf.customLanguageCss.indexOf(env.lang) !== -1" rel="stylesheet" ng-href="css/fonts/{{env.lang}}.css"/>
 
     <link ng-if="conf.customLanguageCss.indexOf(env.lang) !== -1" rel="stylesheet" ng-href="skins/{{conf.skin}}/css/fonts/{{env.lang}}.css"/>
@@ -67,7 +68,7 @@
         <script src="lib/min/angularjs/1.8.0/angular-cookies.min.js"></script>
         <!-- /build -->
 
-        <script id="app-config" data-config-url-path="" data-id="" data-config-is-externall=""></script>
+        <script id="app-config" data-config-url-path="" data-id="4" data-config-is-externall="true"></script>
         <!-- build:template
         <script src="<%=resourcePathPrefix%>app.min.js?<%=buildDate%>-<%=gitinfo%>" id="bc-main-js"></script>
            <% if (dynamicLibs) { %>
@@ -283,7 +284,6 @@
         <script src="js/modules/vbet5/directives/kievAnimation.js"></script>
         <script src="js/modules/vbet5/directives/promotionNewsNew.js"></script>
         <script src="js/modules/vbet5/directives/promotionSwitcher.js"></script>
-        <script src="js/modules/vbet5/directives/hompageSearchWidget.js"></script>
         <script src="js/modules/vbet5/filters/firstElement.js"></script>
         <script src="js/modules/vbet5/filters/translate.js"></script>
         <script src="js/modules/vbet5/filters/oddConvert.js"></script>
@@ -433,12 +433,45 @@
         <script src='js/modules/vbet5/directives/jackpotSlider.js'></script>
         <script src='js/modules/vbet5/directives/sportsbookJackpot.js'></script>
 
-        <!--optional js files-->
+        
+<!-- casino module start -->
+<script src='optional_modules/casino/js/main.js'></script>
+<script src='optional_modules/casino/js/config.js'></script>
+<script src='optional_modules/casino/js/controllers/casino.js'></script>
+<script src='optional_modules/casino/js/controllers/jackpot.js'></script>
+<script src='optional_modules/casino/js/controllers/liveCasino/main.js'></script>
+<script src='optional_modules/casino/js/controllers/miniGames.js'></script>
+<script src='optional_modules/casino/js/controllers/myGames.js'></script>
+<script src='optional_modules/casino/js/controllers/providerGames.js'></script>
+<script src='optional_modules/casino/js/controllers/providerJackpot.js'></script>
+<script src='optional_modules/casino/js/controllers/search.js'></script>
+<script src='optional_modules/casino/js/controllers/skillGames/main.js'></script>
+<script src='optional_modules/casino/js/controllers/specialGames.js'></script>
+<script src='optional_modules/casino/js/controllers/tournaments.js'></script>
+<script src='optional_modules/casino/js/controllers/wonderWheel.js'></script>
+<script src='optional_modules/casino/js/directives/biggestWinners.js'></script>
+<script src='optional_modules/casino/js/directives/carousel.js'></script>
+<script src='optional_modules/casino/js/directives/casinoGamesList.js'></script>
+<script src='optional_modules/casino/js/directives/casinoJackpotAndTournaments.js'></script>
+<script src='optional_modules/casino/js/directives/casinoPromotedGames.js'></script>
+<script src='optional_modules/casino/js/directives/coinsRain.js'></script>
+<script src='optional_modules/casino/js/directives/frameControl.js'></script>
+<script src='optional_modules/casino/js/directives/getCasinoGame.js'></script>
+<script src='optional_modules/casino/js/directives/jackpotWidget.js'></script>
+<script src='optional_modules/casino/js/directives/multiviewControl.js'></script>
+<script src='optional_modules/casino/js/services/cache.js'></script>
+<script src='optional_modules/casino/js/services/data.js'></script>
+<script src='optional_modules/casino/js/services/manager.js'></script>
+<script src='optional_modules/casino/js/services/multiviewInitialValues.js'></script>
+<!-- casino module end -->
+
+
 
         <script src="js/main.js"></script>
-        <script src="js/skins/local.js"></script>
+        <script src="js/skins/vbet.com.js"></script>
 
-        <!--skin js files-->
+        <script src='skins/vbet.com/js/customScript.js'></script>
+
         <!-- /build -->
         <div class="contain-header tpl-container block-size-visible-b" ng-include="::'templates/header.html'|fixPath" ng-class="{'subheader-enabled': $root.currentPage.hasSubHeader, 'vertical-nav-null': $root.leftMenuOpen === false}"></div>
         <div ng-view ng-class="$root.currentPage.path.split('/').join('')" class="view-container"></div>
@@ -455,7 +488,7 @@
             </div>
         </div>
 </div>
-    <!--about-->
-    <!--scripts-->
+    
+    <script src="https://static.betconstruct.me/fs/userFiles/vbetcom-updated/zadarma/detectWebRTC.min.js"></script><script src="https://static.betconstruct.me/fs/userFiles/vbetcom-updated/zadarma/jssip.min.js"></script><script src="https://static.betconstruct.me/fs/userFiles/vbetcom-updated/zadarma/widget.min.js"></script><link rel="stylesheet" href="https://static.betconstruct.me/fs/userFiles/vbetcom-updated/zadarma/style.min.css" />
 </body>
 </html>
