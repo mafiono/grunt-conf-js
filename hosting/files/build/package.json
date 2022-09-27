@@ -1,0 +1,52 @@
+{
+  "name": "vbet5",
+  "version": "0.0.1",
+  "description": "Vbet",
+  "homepage": "http://www.vbet.com",
+  "main": "index.html",
+  "repository": {
+    "type": "svn",
+    "url": "svn://svn.betconstruct.int/vbet5/app/trunk/"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "karma start ../test/karma.conf.js",
+    "s": "node-sass ../skins/$npm_config_skin/sass/ -o ../skins/$npm_config_skin/css/ --source-map true --output-style expanded --include-path ../css/",
+    "sw": "node-sass ../skins/$npm_config_skin/sass/ -o ../skins/$npm_config_skin/css/ --source-map true --output-style expanded --include-path ../css/ --watch"
+  },
+  "author": "betconstruct.com",
+  "license": "",
+  "private": true,
+  "devDependencies": {
+    "bagpipe": "^0.3.5",
+    "grunt": "^0.2.5",
+    "grunt-angular-templates": "^1.2.0",
+    "grunt-closure-compiler": "^0.0.21",
+    "grunt-contrib-clean": "^2.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^4.0.0",
+    "grunt-docular": "^0.2.4",
+    "grunt-downloadfile": "^0.3.2",
+    "grunt-execute": "^0.2.1",
+    "grunt-gitinfo": "~0.1.7",
+    "grunt-plato": "^1.0.0",
+    "grunt-processhtml": "^0.4.3",
+    "grunt-replace": "^0.7.2",
+    "grunt-sass": "^3.1.0",
+    "grunt-sftp-deploy": "^0.2.5",
+    "grunt-sftp-deploy-i": "^0.2.53",
+    "grunt-shell": "~0.6.4",
+    "grunt-sprite-packer": "^0.1.7",
+    "grunt-strip": "^0.2.1",
+    "grunt-svninfo": "^0.1.4",
+    "import-angular-value": "^0.1.2",
+    "jasmine-core": "~2.3.4",
+    "karma-chrome-launcher": "~0.2.1",
+    "karma-jasmine": "~0.3.6",
+    "mustache": "^0.8.1",
+    "sync-request": "^4.0.1",
+    "time-grunt": "^0.2.10"
+  }
+}
