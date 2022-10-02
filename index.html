@@ -9,19 +9,17 @@
     <meta name="ahrefs-site-verification" content="cb555e0f05de657484ea9bbd93144b2f0164a5ffc5e2217ece10a3587f6c2db1">
 <meta name="google-site-verification" content="Asg-2YiFaUKr_F2JpkHzGX-5ywN1CyvN4Megi2WZy7A" />
     
-    <!-- build:template
+    <!-- build:template -->
     <title ng-bind="siteTitle">VBet</title>
     <meta name="description" content="<%=description%>">
     <meta name="keywords" content="<%=keywords%>">
-   <% if (favicon) { %>
         <link rel="icon" href="<%=favicon%>" />
-    <% }%>
 
     <link rel="stylesheet" href="<%=resourcePathPrefix%>skins/<%=skin%>/css/skin.min.css?<%=buildDate%>"/>
-        <!--[if lt IE 10]>
+        <!--[if lt IE 10]> -->
         <script src="//cdn.rawgit.com/jpillora/xdomain/0.7.3/dist/xdomain.min.js"></script>
         <script>xdomain.slaves({"https://swarm5.betconstruct.com" : "/xdomain-proxy.html", "http://casino.vbet.com" : "/global/partners/xdomain/xDomainProxy.html"});</script>
-        <![endif]-->
+       <!-- <![endif]-->
     <!-- /build -->
     
     <link ng-if="conf.customLanguageCss.indexOf(env.lang) !== -1" rel="stylesheet" ng-href="css/fonts/{{env.lang}}.css"/>
