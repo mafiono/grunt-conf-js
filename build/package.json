@@ -35,7 +35,7 @@
     "grunt-processhtml": "*",
     "grunt-replace": "^0.7.2",
     "grunt-sass": "^2.0.0",
-    "grunt-sftp-deploy": "0.0.11",
+    "grunt-sftp-deploy": "0.2.5",
     "grunt-sftp-deploy-i": "^0.2.53",
     "grunt-shell": "~0.6.4",
     "grunt-sprite-packer": "^0.1.7",
