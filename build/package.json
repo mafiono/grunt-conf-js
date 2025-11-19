@@ -42,7 +42,7 @@
     "grunt-strip": "*",
     "grunt-svninfo": "^0.1.4",
     "import-angular-value": "^0.1.2",
-    "jasmine-core": "~2.3.4",
+    "jasmine-core": "~2.99.0",
     "karma-chrome-launcher": "~0.2.1",
     "karma-jasmine": "~0.3.6",
     "mustache": "^0.8.1",
