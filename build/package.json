@@ -26,7 +26,7 @@
     "grunt-closure-compiler": "*",
     "grunt-contrib-clean": "*",
     "grunt-contrib-copy": "*",
-    "grunt-contrib-cssmin": "~0.8.0",
+    "grunt-contrib-cssmin": "~0.14.0",
     "grunt-docular": "*",
     "grunt-downloadfile": "^0.3.2",
     "grunt-execute": "^0.2.1",
