@@ -30,7 +30,7 @@
     "grunt-docular": "*",
     "grunt-downloadfile": "^0.3.2",
     "grunt-execute": "^0.2.1",
-    "grunt-gitinfo": "~0.1.7",
+    "grunt-gitinfo": "~0.2.0",
     "grunt-plato": "^1.0.0",
     "grunt-processhtml": "*",
     "grunt-replace": "^0.7.2",
